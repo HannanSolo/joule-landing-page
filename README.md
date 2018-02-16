@@ -1,3 +1,7 @@
 # Installation
 ```npm install``` for all dependencies.
-```npm start``` to run the application.
+```yarn dev``` to run the application.
+
+# Structure
+- React files are is the /client folder
+- Node.js code is in /server.js
