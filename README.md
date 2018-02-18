@@ -1,11 +1,12 @@
 # Dev
 - ```npm install``` for all dependencies.
 - ```yarn dev``` to run the application.
+- Webpage: localhost:3000
 
 # Build
 - ```yarn build``` in the client folder to compile
 - ```node server``` in the root directory to start
-
+- Webpage: localhost:9000
 # Structure
 - React files are is the /client folder
 - Node.js code is in /server.js
