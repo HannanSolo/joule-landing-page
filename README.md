@@ -1,6 +1,6 @@
 # Dev
-- ```npm install``` for all dependencies.
-- ```yarn dev``` to run the application.
+- ```npm install``` in root and client directory for all dependencies.
+- ```yarn dev``` in root directory to run the application.
 - Webpage: localhost:3000
 # Build
 - ```yarn build``` in the client folder to compile
