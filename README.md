@@ -9,7 +9,7 @@
 # Structure
 - React files are is the /client folder
 - Node.js code is in /server.js
-# Requrements
+# Requirements
 - ```npm install -g nodemon```
 - ```npm install -g yarn```
 - ```npm install -g create-react-app```
