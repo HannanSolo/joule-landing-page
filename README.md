@@ -10,6 +10,6 @@
 - React files are is the /client folder
 - Node.js code is in /server.js
 # Requrements
-- npm install -g nodemon
-- npm install -g yarn
-- npm install -g create-react-app
+- ```npm install -g nodemon```
+- ```npm install -g yarn```
+- ```npm install -g create-react-app```
