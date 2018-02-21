@@ -1,10 +1,13 @@
-import React from 'react'
-import logo from '../logo_black_green.svg'
-import '../styles/Logo_effect.css';
+import React from 'react';
+import {Switch, Route} from 'react-router-dom';
+import Favicon from './Favicon'
+import Home from './Home'
 
+//Handles Page Content and URL routes
 const App = () => (
   <div>
-    <img id='logo' alt='Joule Logo' src={logo} />
+    <Route exact path="/favicon.ico" component={Favicon} />
+    <Route exact path="*" component={Home} />
   </div>
 )
 
