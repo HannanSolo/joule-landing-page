@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
-import App from './components/App.js';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Home from './components/Home';
+import Ping from './components/Ping';
 
-//Calls App.js to use assigned URL routes
+//Assigns URL routes
 ReactDOM.render(
   <BrowserRouter>
-    <App/>
+    {/* Renders first URL match */}
+    <Switch>
+      <Route exact path="/api/ping" component={Ping} />
+      <Route exact path="*" component={Home} />
+    </Switch>
   </BrowserRouter>,
   document.getElementById('root')
 );

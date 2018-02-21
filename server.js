@@ -11,6 +11,16 @@ app.get('/api/hello', (req, res) => {
   res.send({ express: 'Hello From Express' });
 });
 
+//- Favicon.ico
+app.get('/favicon.ico', function (req, res) {
+  res.sendFile(path.join(__dirname, '/client/build', 'favicon.ico'));
+});
+
+//- Manifest.json
+app.get('/manifest.json', function (req, res) {
+  res.sendFile(path.join(__dirname, '/client/build', 'manifest.json'));
+});
+
 //- Use index.html for all other routes
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
