@@ -1,4 +1,10 @@
 /*Main Content Styles*/
+#header-container{
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    background-color: #fff;
+}
 
 /*Main Logo Styles*/
 #logo-container{
