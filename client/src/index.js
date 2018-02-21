@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Ping from './components/Ping';
+import './index.css';
 
 //Assigns URL routes
 ReactDOM.render(
