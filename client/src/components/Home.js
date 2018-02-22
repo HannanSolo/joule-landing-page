@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from '../logo_black_green.svg';
 import '../styles/Home.css'
 import '../styles/animate.css'
@@ -16,13 +17,14 @@ class Home extends React.Component {
       <div>
         {/*Joule Logo*/}
         <div className='animated slideInDown' id='logo-container'>
-          <a href='./'>
+          <Link to={"/api/ping/"}>
             <img id='logo' alt='Joule Logo' src={logo} />
-          </a>
+          </Link>
         </div>
         {/*Main Body*/}
         <div className='animated zoomIn' id="header-container">
-            <p>Wait</p>
+            <p id='header-text'>Wait</p>
+            {/* <input type='text' id='email' onClick={console.log(123)} /> */}
             <img id='logo' alt='Joule Logo' src={logo} />
         </div>
       </div>

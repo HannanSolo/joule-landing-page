@@ -6,6 +6,10 @@
     background-color: #fff;
 }
 
+#header-text{
+    margin: 0px;
+}
+
 /*Main Logo Styles*/
 #logo-container{
     width: 100%;
